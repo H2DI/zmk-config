@@ -60,11 +60,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans         &trans         &trans     &trans    &trans    &trans                                   &trans    &trans    &trans  &trans     &trans   &trans
-&kp LA(GRAVE)  &kp LA(E)      &kp LA(E)  &kp LPAR  &kp RPAR  &kp CARET                                &kp N6    &kp N7    &kp N8  &kp N9     &kp N0   &trans
-&kp LA(GRAVE)  &kp LA(GRAVE)  &kp LA(I)  &kp LBRC  &kp RBRC  &kp UNDERSCORE                           &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp F1   &kp F2
-&kp F7         &kp F8         &kp F9     &kp LBKT  &kp RBKT  &kp DLLR        &kp PIPE         &trans  &kp F7    &kp F8    &kp F9  &kp F10    &kp F11  &kp F12
-                                         &trans    &trans    &trans          &kp BACKSLASH    &trans  &trans    &trans    &trans
+&trans         &kp EXCL       &kp AT     &kp HASH  &kp DLLR  &kp PRCNT                            &trans    &trans    &trans  &trans     &trans   &trans
+&kp LA(GRAVE)  &kp LA(E)      &kp LA(E)  &kp LPAR  &kp RPAR  &kp CARET                            &kp N6    &kp N7    &kp N8  &kp N9     &kp N0   &trans
+&kp LA(GRAVE)  &kp LA(GRAVE)  &kp LA(I)  &kp LBRC  &kp RBRC  &kp DOLLAR                           &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp F1   &kp F2
+&kp F7         &kp TILDE      &kp EQUAL  &kp LBKT  &kp RBKT  &kp UNDER   &kp PIPE         &trans  &kp F7    &kp F8    &kp F9  &kp F10    &kp F11  &kp F12
+                                         &trans    &trans    &trans      &kp BACKSLASH    &trans  &trans    &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
